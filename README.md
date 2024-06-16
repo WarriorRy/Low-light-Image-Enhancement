@@ -48,11 +48,11 @@ o	Reconstructs the flattened image with 784 neurons in the output layer, using s
 •	Peak Signal-to-Noise Ratio (PSNR): PSNR was calculated for each denoised image compared to its original counterpart. PSNR measures the quality of the reconstruction, with higher values indicating better quality.
 •	Average PSNR: The average PSNR score across all test images was computed to evaluate the overall denoising performance of the model.
 
-Results:
+# Results:
 •	Predicted Denoised Images: The autoencoder successfully reduced noise from the input images, producing cleaner reconstructions.
 •	Average PSNR Score: The average PSNR score obtained is in the range of 23.2 to 23.6.
 
-Conclusion:
+# Conclusion:
 
 The autoencoder model effectively learned to denoise MNIST images corrupted with Gaussian noise. The approach demonstrates the capability of autoencoders in image reconstruction tasks and provides a basis for further exploration into more complex datasets and denoising techniques.
 
